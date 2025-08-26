@@ -1,4 +1,4 @@
-# Stripe‑Style Landing — **SASS Final (Pixel‑Close Edition)**
+# Stripe‑Style Landing — **SASS (Pixel‑Close Edition)**
 
 High‑fidelity, original implementation of a Stripe‑style homepage using **advanced SASS** and vanilla JS.
 
@@ -7,7 +7,7 @@ High‑fidelity, original implementation of a Stripe‑style homepage using **ad
 - Hero with **language tabs** (JavaScript / Python / cURL) and **striped code** aesthetics
 - Cards, windowed code preview, developers row, pricing, FAQ, CTA
 - Sticky **glass** header, theme toggle (persisted), mobile nav, marquee logos
-- **Rich SASS**: variables maps, functions, mixins, placeholders, utility helpers
+- **SASS**: variables maps, functions, mixins, placeholders, utility helpers
 
 
 ## Run

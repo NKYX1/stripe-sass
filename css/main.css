@@ -49,3 +49,8 @@ h1,h2,h3,h4{color:var(--ink);line-height:1.15}h1{font-weight:800;letter-spacing:
 .cmdk[hidden]{display:none}.cmdk{position:fixed;inset:0;z-index:1000}.cmdk__backdrop{position:absolute;inset:0;background:rgba(0,0,0,.45)}.cmdk__panel{position:relative;margin:10vh auto 0;width:min(720px,92%);background:var(--bg);border:1px solid var(--border);border-radius:14px;box-shadow:0 20px 70px rgba(0,0,0,.35)}.cmdk__input-row{display:flex;align-items:center;gap:.6rem;border-bottom:1px solid var(--border);padding:.7rem .9rem}.cmdk__input-row input{flex:1;border:0;outline:0;background:transparent;padding:.4rem}.cmdk__list{list-style:none;margin:0;padding:.5rem}.cmdk__list li{padding:.55rem .75rem;border-radius:10px;display:flex;justify-content:space-between;align-items:center}.cmdk__list li[aria-selected=true]{background:var(--bg-alt)}.cmdk__match{color:var(--muted)}.cmdk__hint{color:var(--muted);font-size:.85rem}
 /* Footer */
 .site-footer{padding-block:3rem;border-top:1px solid var(--border)}.footer__inner{display:grid;gap:1.5rem}@media (min-width:768px){.footer__inner{grid-template-columns:1fr auto;align-items:center}}.footer__links{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;list-style:none;padding:0;margin:0}.copyright{color:var(--muted);font-size:.9rem}
+/* Added for better hover visibility */
+.btn--primary:hover {
+  background: var(--primary-600);
+  color: #fff; 
+}
